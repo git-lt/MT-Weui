@@ -1,6 +1,6 @@
 {
   "name": "mt-weui",
-  "version": "1.1.0",
+  "version": "0.0.2",
   "description": "Weui for MTJK",
   "keywords": [
     "weui",
@@ -17,11 +17,11 @@
   "author": "LT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/weui/weui.git"
+    "url": "https://github.com/git-lt/MT-Weui"
   },
-  "homepage": "https://github.com/weui/weui",
+  "homepage": "https://github.com/git-lt/MT-Weui",
   "bugs": {
-    "url": "https://github.com/weui/weui/issues"
+    "url": "https://github.com/git-lt/MT-Weui/issues"
   },
   "license": "MIT",
   "devDependencies": {

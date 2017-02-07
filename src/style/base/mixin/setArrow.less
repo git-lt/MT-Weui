@@ -15,7 +15,6 @@
 .setArrow(@direction, @arrowsize, @borderColor,@borderWidth) when (@direction = right) {
     ._setArrow(@arrowsize, @borderColor, @borderWidth);
     transform: matrix(0.71,0.71,-0.71,0.71,0,0); // rotate(45deg);
-
     position: relative;
     top: -2px;
 }
@@ -23,7 +22,6 @@
 .setArrow(@direction, @arrowsize, @borderColor,@borderWidth) when (@direction = down) {
     ._setArrow(@arrowsize, @borderColor, @borderWidth);
     transform: matrix(-0.71,0.71,-0.71,-0.71,0,0); // rotate(135deg);
-
     position: relative;
     top: -3px;
 }
@@ -31,7 +29,6 @@
 .setArrow(@direction, @arrowsize, @borderColor,@borderWidth) when (@direction = left) {
     ._setArrow(@arrowsize, @borderColor, @borderWidth);
     transform: matrix(-0.71,-0.71,0.71,-0.71,0,0); // rotate(-135deg);
-
     position: relative;
     top: -2px;
 }
